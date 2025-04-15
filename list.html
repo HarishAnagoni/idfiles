@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cricketers List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 24px;
+      color: #333;
+    }
+
+    .cricketer-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #f0f4ff;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      transition: transform 0.2s ease;
+    }
+
+    .cricketer-card:hover {
+      transform: scale(1.02);
+      background: #e6edff;
+    }
+
+    .cricketer-name {
+      font-weight: 600;
+      font-size: 18px;
+      color: #222;
+    }
+
+    .cricketer-country {
+      font-size: 15px;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .cricketer-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Top Cricketers</h1>
+
+    <div class="cricketer-card">
+      <div class="cricketer-name">Virat Kohli</div>
+      <div class="cricketer-country">India</div>
+    </div>
+
+    <div class="cricketer-card">
+      <div class="cricketer-name">Joe Root</div>
+      <div class="cricketer-country">England</div>
+    </div>
+
+    <div class="cricketer-card">
+      <div class="cricketer-name">Steve Smith</div>
+      <div class="cricketer-country">Australia</div>
+    </div>
+
+    <div class="cricketer-card">
+      <div class="cricketer-name">Kane Williamson</div>
+      <div class="cricketer-country">New Zealand</div>
+    </div>
+
+    <div class="cricketer-card">
+      <div class="cricketer-name">Babar Azam</div>
+      <div class="cricketer-country">Pakistan</div>
+    </div>
+<div><a href="index.html">back</a></div>
+  </div>
+
+</body>
+</html>
